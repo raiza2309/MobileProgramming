@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="150px" />
+
+    <TextView
+        android:text=": Mohamad Pradita Anugerah Ramadhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="350px" />
+
+    <TextView
+        android:text="NIM"
+        android:layout_marginTop="230px"
+        android:layout_marginLeft="150px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text=": 3.34.18.1.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230px"
+        android:layout_marginLeft="350px" />
+
+    <TextView
+        android:text="TTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310px"
+        android:layout_marginLeft="150px"/>
+
+    <TextView
+        android:text=": Semarang, 23 Desember 2000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310px"
+        android:layout_marginLeft="350px" />
+
+    <TextView
+        android:text="Prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390px"
+        android:layout_marginLeft="150px" />
+
+    <TextView
+        android:text=": D3 - Teknik Informatika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390px"
+        android:layout_marginLeft="350px"/>
+
+    <TextView
+        android:text="Cita-Cita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470px"
+        android:layout_marginLeft="150px" />
+
+    <TextView
+        android:text=": Menuju dunia yang lebih baik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470px"
+        android:layout_marginLeft="350px"/>
+</RelativeLayout>
