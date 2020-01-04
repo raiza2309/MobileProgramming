@@ -1,15 +1,16 @@
 package raiza.id.myactionbar;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.SearchManager;
+import android.widget.SearchView;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.SearchView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,8 +27,9 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.options_menu, menu);
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+
         if (searchManager != null) {
-            SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+            SearchView searchView = (SearchView) (menu.findItem(R.id.search)).getActionView();
             searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
             searchView.setQueryHint(getResources().getString(R.string.search_hint));
             searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -38,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 @Override
-                public boolean onQueryTextChange(String s) {
+                public boolean onQueryTextChange(String newText) {
                     return false;
                 }
             });
@@ -46,16 +48,14 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId())
-        {
-            case R.id.menu_1:
-                Intent activity1 = new Intent(this, MenuActivity1.class);
-                startActivity(activity1);
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu1:
+                startActivity(new Intent(this, MenuActivity1.class));
                 return true;
-            case R.id.menu_2:
-                Intent activity2 = new Intent(this, MenuActivity2.class);
-                startActivity(activity2);
+            case R.id.menu2:
+                startActivity(new Intent(this, MenuActivity2.class));
                 return true;
             default:
                 return true;
