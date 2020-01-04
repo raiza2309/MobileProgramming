@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "456521828429",
+    "firebase_url": "https://daftar-belanja-harian-raiza.firebaseio.com",
+    "project_id": "daftar-belanja-harian-raiza",
+    "storage_bucket": "daftar-belanja-harian-raiza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456521828429:android:1caee9c28484b704273404",
+        "android_client_info": {
+          "package_name": "raiza.id.daftarbelanja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456521828429-0h9r70pss786g0rihmmgfmmii3f707lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOyxP5pQSE7GSLDG-8p1oc6KZAuGYvp5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456521828429-0h9r70pss786g0rihmmgfmmii3f707lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

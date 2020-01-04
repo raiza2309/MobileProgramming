@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meme Character</string>
+
+    <string name="char_name">Nama Character</string>
+    <string name="detail">Detail</string>
+    <string name="title_activity_profil">Profil</string>
+</resources>
