@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             getActionBar().setTitle("Donasi Pesawat R80");
         }
         btn_donasi = findViewById(R.id.btn_donasi);
+        btn_donasi.setOnClickListener(this);
     }
 
     @Override
